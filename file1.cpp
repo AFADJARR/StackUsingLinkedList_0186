@@ -95,4 +95,9 @@ int main()
             cin >> value;
             Stack.push(value); // Push the  entered value onto the stack
             break;
+        case 2:
+            if (!Stack.isEmpty())
+            {
+                Stack.pop(); // Pop the top element from the stack
+            }
       
