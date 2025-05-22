@@ -95,35 +95,4 @@ int main()
             cin >> value;
             Stack.push(value); // Push the  entered value onto the stack
             break;
-        case 2:
-            if (!Stack.isEmpty())
-            {
-                Stack.pop(); // Pop the top element from the stack
-            }
-            else 
-            {
-                cout << "Stack is empty. Cannot pop." << endl;
-            }
-            break;
-        case 3:
-            if (Stack.isEmpty())
-            {
-                Stack.peek(); // Get the value of the top element
-            }
-            else
-            {
-                cout << "Stack is empty. No top value: " << endl;
-            }
-            break;
-        
-        case 4:
-            cout << "Exiting Program." << endl;
-            break;
-        default:
-            cout << "Invalid Choice. Try again." << endl;
-            break;
-        }
-        cout << endl;
-    }
-    return 0;
-}
+      
