@@ -40,4 +40,6 @@ class Stack{
             cout << "Stack is empty." << endl;
         }
 
-     
+        Node *temp = top; // Create a temporary pointer to teh top node
+        top = top->next; // Update teh top pointer to the next node
+ 
