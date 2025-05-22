@@ -63,3 +63,6 @@ void peek()
         cout << endl;
     } // Return the value of the top node
 }
+
+// isEmpty opertion: Check if the stack is empty
+bool isEmpty()
