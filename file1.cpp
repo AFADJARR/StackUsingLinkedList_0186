@@ -42,4 +42,9 @@ class Stack{
 
         Node *temp = top; // Create a temporary pointer to teh top node
         top = top->next; // Update teh top pointer to the next node
- 
+        cout << "Poped Value: " << top->data << endl;
+    }
+
+//  Peek/Top operation retrive the value of the topmost element without removing
+void peek()
+{}
