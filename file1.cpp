@@ -47,4 +47,8 @@ class Stack{
 
 //  Peek/Top operation retrive the value of the topmost element without removing
 void peek()
-{}
+{
+    if (top == NULL)
+    {
+        cout << "List is empty: " << endl;
+    }
